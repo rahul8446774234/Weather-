@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right bottom,orange,white,green);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+main{
+    display: grid;
+    justify-content: center;
+    margin-top: 6rem;
+}
+main>section{
+    border: 2px solid aqua;
+    border-radius: 5px;
+}
+main>section>img{
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+section>div{
+    padding-left: 1rem;
+}
+section>h4{
+    padding-left: 1rem;
+}
+section>div>input{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+}
+section>div>input::placeholder{
+    padding-left: 10px;
+    color: black;
+}
+section>div>button{
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    color: white;
+    background-color: orange;
+}
